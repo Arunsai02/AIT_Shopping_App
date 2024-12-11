@@ -1,11 +1,14 @@
-
+body{
+ padding: 20px;
+ margin: 20px;
+}
 .heart{
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 .cart{
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
 }
 .links{
   text-decoration: none;
@@ -27,10 +30,11 @@
   text-align: center;
   border-radius: 18px;
   align-items: center;
+  margin-bottom: 20px;
 }
-.pop-catg{
+/* .pop-catg{
   padding-bottom: 400px;
-}
+} */
 .card-img{
   align-content: center;
   border-radius: 18px;
@@ -50,7 +54,64 @@
  flex-direction: column;
  gap: 2px;
 }
-
+.btn{
+  background-color: lightgray;
+  font-weight: 600;
+  border: 1px ;
+  margin-bottom: 20px;
+}
+.big-card-img{
+  align-content: center;
+  border-radius: 18px;
+  padding: 6px;
+  height: 280px;
+  width: 265px;
+}
+.big-card{
+  height: 400px;
+  width: 270px;
+  border:solid 1px lightgray;
+  font-size: 14px;
+  text-align: left;
+  border-radius: 18px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.big-card-text{
+  margin-left: 14px;
+}
+.shp-btn{
+  padding: 8px 14px 8px 14px;
+}
+.deals{
+  margin-left: 60px;
+  position: relative;
+  width: 600px;
+}
+.deals-img{
+  width: 450px;
+  height: 400px;
+}
+.deals-text{
+  position: absolute;
+  transform: translate(20%, -140%);
+}
+.women-clothing{
+  position: relative;
+  width: 600px;
+}
+.women-clothing-img{
+  width: 450px;
+  height: 400px;
+}
+.women-clothing-text{
+  position: absolute;
+  transform: translate(20%, -140%);
+}
+.timer{
+  background-color: lightseagreen;
+  padding: 4px;
+}
 /* .container-fluid{
   justify-content: space-around;
 } */
