@@ -31,6 +31,14 @@ form{
   border: none;
   border-radius: 5px;
 }
+.compare-btn{
+  background-color: rgb(19, 134, 128);
+  color: white;
+  width: 190px;
+  padding: 4px;
+  border: none;
+  border-radius: 5px;
+}
 .submit-btn{
   background-color: rgb(19, 134, 128);
   color: white;
@@ -224,4 +232,19 @@ form{
 .account{
   border: solid 1px lightgrey;
   padding: 6px 10px 6px 10px;
+}
+.compare{
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: solid 1px lightgray;
+  text-align: center;
+}
+.compare-img{
+  height: 300px;
+  width: 300px;
+}
+.compare-container{
+  display: grid;
+  grid-template-columns:1fr 4fr 4fr 4fr;
+  width: 100%;
 }
