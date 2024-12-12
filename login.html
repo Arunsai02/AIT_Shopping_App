@@ -16,31 +16,34 @@
       <a class="links" target="_blank" href="account.html">My Account</a>
       <a class="links" target="_blank" href="compare.html">Compare</a>
       <a class="links" target="_blank" href="login.html">Login</a>
-      <!-- <form class="d-flex" role="search"> -->
           <input class="search" type="search" placeholder="Search for items..." img src="img/search.png">
           <img class="heart" src="img/icon-heart.svg">
           <img class="cart" src="img/icon-cart.svg">
-        <!-- </form> -->
       </div>
   </nav>
-  <div class="forms" style="display: flex;">
-    <form class="form" action="">
-      Login <br>
-      <input type="text"> <br>
-      <input type="password"> <br>
-      <button>Login</button>
-    </form>
-    <form class="form" action="">
-      Create an Account <br>
-      <input type="text"> <br>
-      <input type="email"> <br>
-      <input type="password"> <br>
-      <input type="password"> <br>
-      <button>Submit & Register</button>
-    </form>
+  <div class="forms" style="display: flex; justify-content: space-around;" >
+    <div> 
+      <form class="form" action="">
+        <b>Login</b> <br>
+        <input type="text" value="Your Email"> <br>
+        <input type="text" value="Your Password"> <br>
+        <button class="login-btn">Login</button>
+      </form>
+    </div>
+    <div>
+      <form class="form" action="">
+        <b>Create an Account</b> <br>
+        <input type="text" value="Username"> <br>
+        <input type="text" value="Your Email"> <br>
+        <input type="text" value="Enter Password"> <br>
+        <input type="text" value="Confirm Password"> <br>
+        <button class="submit-btn">Submit & Register</button>
+      </form>
+    </div>
   </div>
+
   <footer>
-    <div style="display: flex; justify-content: space-around; background-color: lightgreen; padding: 10px;">
+    <div style="display: flex; justify-content: space-around; background-color: lightgreen; padding: 10px; margin: 0;">
       <div>
         <img class="email-icon" src="img/icon-email.svg" alt="">
         Sign in to Newsletter
