@@ -2,16 +2,56 @@ body{
  padding: 20px;
  margin: 20px;
 }
+.logo{
+  height: 60px;
+}
+.searchbar{
+  padding: 12px;
+  margin-top: 18px;
+  margin-right: 40px;
+  position: relative;
+  height: 40px;
+  width: 360px;
+}
+.footer-icons{
+  height: 30px;
+  width: 30px;
+}
+.payment-method{
+  height: 30px;
+  width: 120px;
+}
+.search{
+  margin-top: 22px;
+  transform: translate(430px);
+  position: absolute;
+  height: 25px;
+  width: 25px;
+}
 .heart{
+  margin-top: 18px;
+  height: 30px;
+  width: 30px;
+}
+.email-icon{
   height: 30px;
   width: 30px;
 }
 .cart{
-    height: 30px;
-    width: 30px;
+  margin-top: 18px;
+  margin-left: 18px;
+  height: 30px;
+  width: 30px;
 }
 .links{
+  margin-top: 20px;
+  margin-right: 40px;
+  color: black;
+  font-weight: 600;
   text-decoration: none;
+}
+.links:hover{
+  color: rgb(70, 171, 114);
 }
 .catg-pics{
   height: 150px;
@@ -32,9 +72,6 @@ body{
   align-items: center;
   margin-bottom: 20px;
 }
-/* .pop-catg{
-  padding-bottom: 400px;
-} */
 .card-img{
   align-content: center;
   border-radius: 18px;
@@ -112,6 +149,20 @@ body{
   background-color: lightseagreen;
   padding: 4px;
 }
-/* .container-fluid{
-  justify-content: space-around;
-} */
+.Hot-releases-img{
+  height: 60px;
+  width: 60px;
+}
+.Deals-Outlet-img{
+  height: 60px;
+  width: 60px;
+}
+.Top-Selling-img{
+  height: 60px;
+  width: 60px;
+
+}
+.Trendy-img{
+  height: 60px;
+  width: 60px;
+}
