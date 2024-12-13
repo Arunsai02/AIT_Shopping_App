@@ -9,20 +9,28 @@
 </head>
 <body>
 <!-- header-1 -->
-  <header style="padding-bottom: 20px;">
-    <div style="display: flex; justify-content: space-evenly;">
-      <img class="logo" src="img/logo.png">
-        <a class="links" href="index.html">Home</a>
-        <a class="links" target="_blank" href="shop.html">Shop</a>
-        <a class="links" target="_blank" href="account.html">My Account</a>
-        <a class="links" target="_blank" href="compare.html">Compare</a>
-        <a class="links" target="_blank" href="login.html">Login</a>
-        <input class="searchbar" placeholder="Search for items..." type="text">
-        <img class="search" src="img/search.png" alt="">
-        <img class="heart" src="img/icon-heart.svg">
-        <img class="cart" src="img/icon-cart.svg">
-    </div>
-  </header>
+<header style="padding-bottom: 20px; margin-top: 30px;">
+  <div style="display: flex; justify-content: space-evenly;">
+    <img class="logo" src="img/logo.png">
+      <a class="links" href="index.html">Home</a>
+      <a class="links" target="_blank" href="shop.html">Shop</a>
+      <a class="links" target="_blank" href="account.html">My Account</a>
+      <a class="links" target="_blank" href="compare.html">Compare</a>
+      <a class="links" target="_blank" href="login.html">Login</a>
+      <input class="searchbar" placeholder="Search for items..." type="text">
+      <img class="search" src="img/search.png" alt="">
+      <div style="margin-right: 16px; display: flex;">
+        <div>
+          <img class="heart" src="img/icon-heart.svg">
+        <div class="heart-num">3</div>
+        </div>
+        <div>
+          <img class="cart" src="img/icon-cart.svg">
+        <div class="cart-num">3</div>
+        </div>
+      </div>
+  </div>
+</header>
   <!-- header-2 -->
   <header style="background-color: lightgray;">
     <div style="margin-left: 60px; padding-top: 10px; padding-bottom: 10px;">
@@ -34,18 +42,18 @@
     <div> 
       <form class="form" action="">
         <b>Login</b> <br>
-        <input type="text" value="Your Email"> <br>
-        <input type="text" value="Your Password"> <br>
+        <input type="text" value="Your Email" style="color: gray;"> <br>
+        <input type="text" value="Your Password" style="color: gray;"> <br>
         <button class="login-btn">Login</button>
       </form>
     </div>
     <div>
       <form class="form" action="">
         <b>Create an Account</b> <br>
-        <input type="text" value="Username"> <br>
-        <input type="text" value="Your Email"> <br>
-        <input type="text" value="Enter Password"> <br>
-        <input type="text" value="Confirm Password"> <br>
+        <input type="text" value="Username" style="color: gray;"> <br>
+        <input type="text" value="Your Email" style="color: gray;"> <br>
+        <input type="text" value="Enter Password" style="color: gray;"> <br>
+        <input type="text" value="Confirm Password" style="color: gray;"> <br>
         <button class="submit-btn">Submit & Register</button>
       </form>
     </div>

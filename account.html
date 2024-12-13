@@ -9,7 +9,7 @@
 </head>
 <body>
   <!-- header-1 -->
-  <header style="padding-bottom: 20px;">
+  <header style="padding-bottom: 20px; margin-top: 30px;">
     <div style="display: flex; justify-content: space-evenly;">
       <img class="logo" src="img/logo.png">
         <a class="links" href="index.html">Home</a>
@@ -19,8 +19,16 @@
         <a class="links" target="_blank" href="login.html">Login</a>
         <input class="searchbar" placeholder="Search for items..." type="text">
         <img class="search" src="img/search.png" alt="">
-        <img class="heart" src="img/icon-heart.svg">
-        <img class="cart" src="img/icon-cart.svg">
+        <div style="margin-right: 16px; display: flex;">
+          <div>
+            <img class="heart" src="img/icon-heart.svg">
+          <div class="heart-num">3</div>
+          </div>
+          <div>
+            <img class="cart" src="img/icon-cart.svg">
+          <div class="cart-num">3</div>
+          </div>
+        </div>
     </div>
   </header>
     <!-- header-2 -->
@@ -29,7 +37,7 @@
       Home > Account
     </div>
   </header>
-  <div style="display: flex; padding-top: 20px; justify-content: space-around;">
+  <div style="display: flex; padding-top: 20px; justify-content: space-around; margin-bottom: 40px;">
     <div>
       <div class="account" style="color: white; background-color: rgb(19, 134, 128);">Dashboard</div>
       <div class="account">Orders</div>
