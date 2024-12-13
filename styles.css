@@ -137,11 +137,11 @@ form{
   border-radius: 18px;
   padding: 6px;
   height: 280px;
-  width: 265px;
+  width: 300px;
 }
 .big-card{
+  width: 300px;
   height: 400px;
-  width: 270px;
   border:solid 1px lightgray;
   font-size: 14px;
   text-align: left;
@@ -152,11 +152,29 @@ form{
 .big-card-text{
   margin-left: 14px;
 }
+.big-card-arrival{
+  width: 200px;
+  height: 250px;
+  border:solid 1px lightgray;
+  font-size: 14px;
+  text-align: left;
+  border-radius: 18px;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-right: 60px;
+}
+.big-card-img-arrival{
+  align-content: center;
+  border-radius: 18px;
+  padding: 6px;
+  height: 150px;
+  width: 200px;
+}
 .shp-btn{
   padding: 8px 14px 8px 14px;
 }
 .deals{
-  margin-left: 60px;
+  margin-left: 80px;
   position: relative;
   width: 600px;
 }
@@ -178,7 +196,7 @@ form{
 }
 .women-clothing-text{
   position: absolute;
-  transform: translate(20%, -140%);
+  transform: translate(10%, -140%);
 }
 .timer{
   background-color: lightseagreen;
@@ -186,19 +204,25 @@ form{
 }
 .Hot-releases-img{
   height: 60px;
+  margin-bottom: 20px;
+
   width: 60px;
 }
 .Deals-Outlet-img{
   height: 60px;
+  margin-bottom: 20px;
+
   width: 60px;
 }
 .Top-Selling-img{
   height: 60px;
+  margin-bottom: 20px;
   width: 60px;
 
 }
 .Trendy-img{
   height: 60px;
+  margin-bottom: 20px;
   width: 60px;
 }
 .footer-1{
