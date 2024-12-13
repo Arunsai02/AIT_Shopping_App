@@ -1,11 +1,43 @@
 body{
  padding-bottom: 20px;
 }
-header a:visited {
-  color: black;
+.home-shp-btn{
+  background-color: rgb(19, 134, 128); 
+  color: white; 
+  padding: 10px; 
+  border-radius: 4px; 
+  border: none;
 }
-header a:focus, header a:active {
-  color: seagreen;
+.home-shp-btn:hover{
+  background-color: white;
+  color: rgb(19, 134, 128);
+  border:solid 2px rgb(19, 134, 128);
+}
+.deals-btn{
+  margin-top: 10px; 
+  background-color: transparent; 
+  border: 1px rgb(19, 134, 128);
+  color: rgb(19, 134, 128); 
+  padding: 10px;
+  border: solid 1px seagreen;
+}
+.deals-btn:hover{
+  margin-top: 10px; 
+  background-color: rgb(19, 134, 128); 
+  border: solid 1px seagreen;
+  color: white; 
+  padding: 10px; 
+  border-radius: 4px; 
+}
+.header-1{
+  background-color: white;
+  position: fixed; /* Fixes the header at the top of the page */
+  top: 0;           /* Places the header at the top */
+  left: 0;          /* Aligns the header to the left */
+  width: 100%;      /* Makes the header span the full width */
+  padding: 10px 0;  /* Padding for some spacing */
+  z-index: 1000;    /* Ensures the header stays on top of other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
 }
 .logo{
   height: 60px;
@@ -237,13 +269,13 @@ form{
   opacity: 1;
 }
 .hov-btn:hover{
-  transform: translate(90px, -160px);
+  transform: translate(70px, -260px);
   opacity: 0;
   background-color: seagreen;
 }
 .hov-btn{
     position: relative;
-    transform: translate(90px, -160px);
+    transform: translate(70px, -260px);
     opacity: 0;
     padding: 10px 15px;
     background-color: white;
