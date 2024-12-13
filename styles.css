@@ -1,6 +1,12 @@
 body{
  padding-bottom: 20px;
 }
+header a:visited {
+  color: black;
+}
+header a:focus, header a:active {
+  color: seagreen;
+}
 .logo{
   height: 60px;
 }
@@ -17,10 +23,10 @@ form{
 .searchbar{
   padding: 12px;
   margin-top: 18px;
-  margin-right: 40px;
+  margin-right: 80px;
   position: relative;
   height: 40px;
-  width: 360px;
+  width: 240px;
 }
 .login-btn{
   background-color: rgb(19, 134, 128);
@@ -30,6 +36,9 @@ form{
   float: left;
   border: none;
   border-radius: 5px;
+}
+.logo:hover{
+  cursor: pointer;
 }
 .compare-btn{
   background-color: rgb(19, 134, 128);
@@ -63,12 +72,18 @@ form{
   height: 25px;
   width: 25px;
 }
+.search:hover{
+  cursor: pointer;
+}
 .heart{
   margin-top: 18px;
   transform: translate(-40px);
   height: 30px;
   position: absolute;
   width: 30px;
+}
+.heart:hover{
+  cursor: pointer;
 }
 .heart-num{
   padding-left: 4px;
@@ -92,6 +107,9 @@ form{
   margin-left: 18px;
   height: 30px;
   width: 30px;
+}
+.cart:hover{
+  cursor: pointer;
 }
 .cart-num{
   padding-left: 4px;
@@ -123,6 +141,27 @@ form{
   font-size: 14px;
   text-align: center;
   padding-bottom: 8px;
+}
+.card:hover{
+  cursor: pointer;
+}
+.big-card:hover{
+  cursor: pointer;
+}
+.big-card-arrival:hover{
+  cursor: pointer;
+}
+.Hot-releases:hover{
+  cursor: pointer;
+}
+.Top-Selling:hover{
+  cursor: pointer;
+}
+.Deals-Outlet:hover{
+  cursor: pointer;
+}
+.Trendy:hover{
+  cursor: pointer;
 }
 .card{
   width: 170px;
@@ -166,6 +205,7 @@ form{
   width: 300px;
 }
 .big-card{
+  position: relative;
   width: 300px;
   height: 400px;
   border:solid 1px lightgray;
@@ -174,6 +214,70 @@ form{
   border-radius: 18px;
   align-items: center;
   margin-bottom: 20px;
+}
+.image1{
+  object-fit: cover;
+  transition: opacity 1s ease;
+}
+.image2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    opacity: 0; 
+    transition: opacity 1s ease;
+}
+.big-card:hover .image1{
+  opacity: 0;
+}
+.big-card:hover .image2{
+  opacity: 1;
+}
+.big-card:hover .hov-btn{
+  opacity: 1;
+}
+.hov-btn:hover{
+  transform: translate(90px, -160px);
+  opacity: 0;
+  background-color: seagreen;
+}
+.hov-btn{
+    position: relative;
+    transform: translate(90px, -160px);
+    opacity: 0;
+    padding: 10px 15px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: opacity 1s ease;
+}
+.hov-btn:hover .tooltip{
+  visibility: visible;
+  opacity: 1;
+  padding: 10px 15px;
+  background-color:  white;
+  color: seagreen;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: opacity 1s ease;
+}
+.tooltip{
+    visibility: hidden;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    padding: 8px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position above the button */
+    left: 50%;  
+    margin-left: -75px; /* Offset to center */
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Smooth fade in/out */
 }
 .big-card-text{
   margin-left: 14px;
@@ -244,10 +348,10 @@ form{
   height: 60px;
   margin-bottom: 20px;
   width: 60px;
-
 }
 .Trendy-img{
   height: 60px;
+  margin-bottom: 20px;
   width: 60px;
 }
 .footer-1{
@@ -330,4 +434,25 @@ form{
 }
 .fas{
   color: gray;
+}
+.gt-btn{
+  height: 28px; 
+  width: 28px; color: white;
+  border-radius: 50%; 
+  background-color: rgb(19, 134, 128); 
+  padding-left: 8px;
+}
+.lt-btn{
+    height: 28px; 
+    margin-left: 6px;
+    width: 28px; color: white;
+    border-radius: 50%; 
+    background-color: rgb(19, 134, 128); 
+    padding-left: 8px;
+}
+.gt-btn:hover{
+  cursor: pointer;
+}
+.lt-btn:hover{
+  cursor: pointer;
 }
